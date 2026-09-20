@@ -7,11 +7,11 @@ import {
   type CollisionHit,
   type CollisionResult,
   type SpriteShape,
-} from "tilemap-parser-ts/core";
+} from "tilemap-parser/core";
 import {
   wrapGameObject,
   type WrappedGameObject,
-} from "tilemap-parser-ts/phaser";
+} from "tilemap-parser/phaser";
 import { midbottomToOrigin, moveTowards } from "./math.js";
 import type { SharedAssets } from "./assets.js";
 
@@ -362,7 +362,7 @@ export class Ghost extends Enemy {
 
   onObjectHit(hit: CollisionHit): void {
     const other = hit.other(
-      this as unknown as import("tilemap-parser-ts/core").ICollidable,
+      this as unknown as import("tilemap-parser/core").ICollidable,
     ) as unknown as {
       name?: unknown;
     };

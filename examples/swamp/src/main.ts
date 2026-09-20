@@ -3,12 +3,12 @@ import {
   parseAnimationDict,
   parseMapDict,
   resolveResourceUrl,
-} from "tilemap-parser-ts/core";
+} from "tilemap-parser/core";
 import {
   animSheetKey,
   buildAnimations,
   queueMapAssets,
-} from "tilemap-parser-ts/phaser";
+} from "tilemap-parser/phaser";
 import { STATE_ANIM_KEYS } from "./assets.js";
 import { World } from "./world.js";
 
@@ -79,9 +79,10 @@ class GameScene extends Phaser.Scene {
     this.world = new World(this);
     this.cursors = this.input.keyboard?.createCursorKeys();
     void this.world
-      .loadLevel(map as import("tilemap-parser-ts/core").ParsedMap)
+      .loadLevel(map as import("tilemap-parser/core").ParsedMap)
       .catch((err: unknown) => {
-        throw err;
+        console.error("failed to load level", err);
+        this.add.text(16, 16, "Failed to load level", { color: "#ff5555" });
       });
   }
 

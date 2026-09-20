@@ -1,9 +1,9 @@
 {
-  "name": "sporeling-ts",
+  "name": "swamp",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Sporeling game ported to Phaser on tilemap-parser-ts (full playable, straight to gameplay). Excluded from packaging.",
+  "description": "Swamp game ported to Phaser on tilemap-parser (full playable, straight to gameplay). Excluded from packaging.",
   "scripts": {
     "dev": "vite --port 5210",
     "build": "vite build",
@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "tilemap-parser-ts": "file:../..",
+    "tilemap-parser": "file:../..",
     "phaser": "3.90.0"
   },
   "devDependencies": {

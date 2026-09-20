@@ -22,7 +22,8 @@ import {
 import type { ParsedMap } from "../../src/core/index.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const ENTRY_JSON = join(HERE, "../../../../sporeling/data/maps/entry.json");
+const DATA_DIR = join(HERE, "../../examples/swamp/public/data");
+const ENTRY_JSON = join(DATA_DIR, "entry.json");
 
 function loadMap(): ParsedMap {
   return parseMapDict(JSON.parse(readFileSync(ENTRY_JSON, "utf-8")) as unknown);
@@ -78,7 +79,7 @@ describe("wrapGameObject + solver write-back", () => {
   it("solver probe-mutations act on the live object, then gravity lands it", () => {
     const map = loadMap();
     const collision = parseTilesetCollisionDict(
-      JSON.parse(readFileSync(join(HERE, "../../../../sporeling/data/collision/tileset.collision.json"), "utf-8")) as unknown,
+      JSON.parse(readFileSync(join(DATA_DIR, "collision/tileset.collision.json"), "utf-8")) as unknown,
     );
     const world = PhysicsWorld.fromParsedMap(map, collision, { useGids: true });
     const runner = CollisionRunner.fromWorld(world, "platformer");

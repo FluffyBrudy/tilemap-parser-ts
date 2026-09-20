@@ -16,8 +16,9 @@ import {
 } from "../../src/core/index.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const TILESET_JSON = join(HERE, "../../../../sporeling/data/collision/tileset.collision.json");
-const CHAR_DIR = join(HERE, "../../../../sporeling/data/character_collision");
+const DATA_DIR = join(HERE, "../../examples/swamp/public/data");
+const TILESET_JSON = join(DATA_DIR, "collision/tileset.collision.json");
+const CHAR_DIR = join(DATA_DIR, "character_collision");
 
 function loadJson(path: string): unknown {
   return JSON.parse(readFileSync(path, "utf-8")) as unknown;

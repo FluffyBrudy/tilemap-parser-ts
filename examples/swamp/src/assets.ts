@@ -3,7 +3,7 @@ import {
   parseCharacterCollisionDict,
   type AnimationLibrary,
   type CharacterCollision,
-} from "tilemap-parser-ts/core";
+} from "tilemap-parser/core";
 
 export const STATE_ANIM_KEYS = [
   "player",

@@ -8,6 +8,18 @@ import { tileKey } from "../../vec.js";
 
 export type GidResolver = (tileId: number) => TileCollisionData | null;
 
+const identityIds = new WeakMap<object, number>();
+let nextIdentityId = 1;
+
+function identityId(obj: object): number {
+  const existing = identityIds.get(obj);
+  if (existing !== undefined) return existing;
+  const id = nextIdentityId;
+  nextIdentityId += 1;
+  identityIds.set(obj, id);
+  return id;
+}
+
 export interface NavGridOptions {
   readonly renderScale?: number;
   readonly mapSize?: Vec2 | null;
@@ -196,7 +208,26 @@ export class NavGrid {
     const tw = tileSize[0] * renderScale;
     const size = Math.max(spriteWidth, spriteHeight ?? spriteWidth);
     const margin = size / 2.0 / tw;
-    const key = `${margin}|${gidResolver === null}|${collisionMask}`;
+    // Cache key includes every input by identity/value: grids must never be
+    // reused across different tile maps, tileset collision data, tile sizes,
+    // render scales, map sizes, or gidResolver identities. Each cache is
+    // therefore owned by the exact combination that populated it.
+    const mapId = identityId(tileMap);
+    const collisionId = identityId(tilesetCollision);
+    const resolverId =
+      gidResolver === null ? "null" : `fn:${identityId(gidResolver)}`;
+    const mapSizeKey =
+      mapSize === null ? "auto" : `${mapSize[0]}x${mapSize[1]}`;
+    const key = [
+      mapId,
+      collisionId,
+      `${tileSize[0]}x${tileSize[1]}`,
+      renderScale,
+      mapSizeKey,
+      margin,
+      resolverId,
+      collisionMask,
+    ].join("|");
     if (cache !== null) {
       const hit = cache.get(key);
       if (hit !== undefined) return hit;

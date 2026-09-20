@@ -10,14 +10,14 @@ import {
   type ICollidable,
   type ParsedMap,
   type SpriteShape,
-} from "tilemap-parser-ts/core";
+} from "tilemap-parser/core";
 import {
   applyCamera,
   buildImageLayers,
   buildObjectStamps,
   buildTileLayers,
   worldBounds,
-} from "tilemap-parser-ts/phaser";
+} from "tilemap-parser/phaser";
 import { loadSharedAssets, type SharedAssets } from "./assets.js";
 import {
   AnimatedFx,
@@ -152,7 +152,6 @@ export class World {
       const ea = this.entityOf(hit.objectA);
       const eb = this.entityOf(hit.objectB);
       if (ea === null || eb === null) continue;
-      if (ea === this.player || eb === this.player) continue;
       const entityHit = new CollisionHit(
         ea as unknown as ICollidable,
         eb as unknown as ICollidable,

@@ -9,10 +9,11 @@ import {
 } from "../../src/core/index.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const PLAYER_ANIM = join(HERE, "../../../../sporeling/data/animations/player.anim.json");
+const DATA_DIR = join(HERE, "../../examples/swamp/public/data");
+const PLAYER_ANIM = join(DATA_DIR, "animations/player.anim.json");
 
 describe("parseAnimationDict: production file parity", () => {
-  it("parses sporeling player.anim.json field-for-field", () => {
+  it("parses swamp player.anim.json field-for-field", () => {
     const lib = parseAnimationDict(
       JSON.parse(readFileSync(PLAYER_ANIM, "utf-8")) as unknown,
     );

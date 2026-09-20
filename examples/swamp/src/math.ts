@@ -1,4 +1,4 @@
-import { getShapeAabb, type SpriteShape } from "tilemap-parser-ts/core";
+import { getShapeAabb, type SpriteShape } from "tilemap-parser/core";
 
 export function midbottomToOrigin(
   x: number,

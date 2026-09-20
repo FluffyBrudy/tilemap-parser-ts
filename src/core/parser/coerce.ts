@@ -90,7 +90,10 @@ export function _optionalDict(value: unknown, path: string): JsonDict | null {
   return _requireDict(value, path);
 }
 
-const POINT_RE = /(-?\d+)([!-/:-@[-`{-~])(-?\d+)$/;
+// Anchored at both ends so leading garbage is rejected. Fractional parts are
+// accepted because production maps store float points (e.g. meta.scroll
+// "1499.35;610.03"); integer inputs still parse as before.
+const POINT_RE = /^(-?\d+(?:\.\d+)?)([!-/:-@[-`{-~])(-?\d+(?:\.\d+)?)$/;
 
 export function _parsePoint(text: string, path: string): Vec2 {
   if (typeof text !== "string") {

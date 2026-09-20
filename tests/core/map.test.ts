@@ -9,13 +9,14 @@ import {
 } from "../../src/core/index.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const ENTRY_JSON = join(HERE, "../../../../sporeling/data/maps/entry.json");
+const DATA_DIR = join(HERE, "../../examples/swamp/public/data");
+const ENTRY_JSON = join(DATA_DIR, "entry.json");
 
 function loadEntry(): unknown {
   return JSON.parse(readFileSync(ENTRY_JSON, "utf-8")) as unknown;
 }
 
-describe("parseMapDict: sporeling entry.json parity", () => {
+describe("parseMapDict: swamp entry.json parity", () => {
   it("parses layers with exact counts", () => {
     const map = parseMapDict(loadEntry());
     expect(map.layers.map((l) => [l.name, l.layerType, l.tiles.size, l.objects.size])).toEqual([
@@ -35,7 +36,7 @@ describe("parseMapDict: sporeling entry.json parity", () => {
     expect(map.meta.mapSize).toEqual([120, 20]);
     expect(map.meta.initialMapSize).toEqual([120, 20]); // absent -> map_size
     expect(map.meta.zoomLevel).toBeCloseTo(1.4, 10);
-    expect(map.meta.scroll).toEqual([610, 394312429912]);
+    expect(map.meta.scroll).toEqual([1499.3514546169345, 610.0394312429912]);
     expect(map.meta.version).toBe("1.1");
     expect(map.meta.renderScale).toBe(3.0);
   });

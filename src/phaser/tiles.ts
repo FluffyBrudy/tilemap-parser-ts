@@ -8,6 +8,8 @@ export interface TileBuildOptions {
   readonly layerTypes?: readonly string[];
 
   readonly skipCull?: boolean;
+
+  readonly includeHidden?: boolean;
 }
 
 export interface TileBuildResult {
@@ -41,9 +43,6 @@ export function buildTileLayers(
     const set = tilemap.addTilesetImage(`ts${i}`, tilesetKey(i), tw, th, 0, 0);
     if (set !== null) sets.set(i, set);
   });
-  const firstEntry = [...sets.entries()][0];
-  const boundIndex = sets.has(0) ? 0 : (firstEntry?.[0] ?? null);
-  const boundSet = boundIndex === null ? null : (sets.get(boundIndex) ?? null);
 
   const layers: Phaser.Tilemaps.TilemapLayer[] = [];
   let stamped = 0;
@@ -53,11 +52,14 @@ export function buildTileLayers(
   );
   for (const layer of ordered) {
     if (!wanted.has(layer.layerType)) continue;
-    if (boundSet === null || boundIndex === null) {
+    if (layer.visible === false && options.includeHidden !== true) continue;
+    if (sets.size === 0) {
       skipped += layer.tiles.size;
       continue;
     }
-    const phaserLayer = tilemap.createBlankLayer(layer.name, boundSet);
+    const phaserLayer = tilemap.createBlankLayer(layer.name, [
+      ...sets.values(),
+    ]);
     if (phaserLayer === null) {
       skipped += layer.tiles.size;
       continue;
@@ -72,7 +74,12 @@ export function buildTileLayers(
         skipped += 1;
         continue;
       }
-      if (tile.ttype !== boundIndex || tile.variant < 0) {
+      if (typeof tile.ttype !== "number" || tile.variant < 0) {
+        skipped += 1;
+        continue;
+      }
+      const set = sets.get(tile.ttype);
+      if (set === undefined) {
         skipped += 1;
         continue;
       }

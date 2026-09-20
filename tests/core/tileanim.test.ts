@@ -79,8 +79,8 @@ describe("resolveClipSheet tiers", () => {
   it("matches exact, basename, then stem", () => {
     expect(resolveClipSheet(paths, "env/tileset.png")).toBe(0);
     expect(resolveClipSheet(paths, "other/player.png")).toBe(1); // basename
-    expect(resolveClipSheet(paths, "anywhere/water_v2.png")).toBeNull; // stem clash-free miss
-    expect(resolveClipSheet(["a/water.png", "b/water.png"], "c/water.png")).toBeNull; // ambiguous
+    expect(resolveClipSheet(paths, "anywhere/water_v2.png")).toBeNull(); // stem clash-free miss
+    expect(resolveClipSheet(["a/water.png", "b/water.png"], "c/water.png")).toBeNull(); // ambiguous
     expect(resolveClipSheet(paths, "")).toBeNull();
     expect(resolveClipSheet(paths, "env\\tileset.png")).toBe(0); // backslash norm
   });

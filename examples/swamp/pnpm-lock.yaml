@@ -11,7 +11,7 @@ importers:
       phaser:
         specifier: 3.90.0
         version: 3.90.0
-      tilemap-parser-ts:
+      tilemap-parser:
         specifier: file:../..
         version: file:../..(phaser@3.90.0)
     devDependencies:
@@ -378,8 +378,9 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  tilemap-parser-ts@file:../..:
+  tilemap-parser@file:../..:
     resolution: {directory: ../.., type: directory}
+    engines: {node: '>=20'}
     peerDependencies:
       phaser: '>=3.60.0'
     peerDependenciesMeta:
@@ -683,7 +684,7 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  tilemap-parser-ts@file:../..(phaser@3.90.0):
+  tilemap-parser@file:../..(phaser@3.90.0):
     optionalDependencies:
       phaser: 3.90.0
 

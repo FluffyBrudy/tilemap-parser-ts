@@ -18,8 +18,9 @@ import {
 } from "../../src/core/index.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const ENTRY_JSON = join(HERE, "../../../../sporeling/data/maps/entry.json");
-const TILESET_JSON = join(HERE, "../../../../sporeling/data/collision/tileset.collision.json");
+const DATA_DIR = join(HERE, "../../examples/swamp/public/data");
+const ENTRY_JSON = join(DATA_DIR, "entry.json");
+const TILESET_JSON = join(DATA_DIR, "collision/tileset.collision.json");
 
 function loadEntry(): ParsedMap {
   return parseMapDict(JSON.parse(readFileSync(ENTRY_JSON, "utf-8")) as unknown);

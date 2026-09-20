@@ -97,14 +97,15 @@ export function iterCellEntries(cell: unknown): TileCell {
   if (Array.isArray(cell)) {
     const out: StackEntry[] = [];
     for (const v of cell) {
-      let entry = asEntry(v);
-      if (entry === null) {
+      let parsed = asEntry(v);
+      if (parsed === null) {
         if (typeof v === "number" && Number.isInteger(v)) {
-          entry = [v, 0];
+          parsed = [v, 0];
         } else {
           continue;
         }
       }
+      const entry: StackEntry = parsed;
       if (!out.some((e) => e[0] === entry[0] && e[1] === entry[1])) {
         out.push(entry);
       }
