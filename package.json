@@ -1,6 +1,6 @@
 {
   "name": "tilemap-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript port of tilemap-parser core (Phaser-targeted library). Engine-agnostic core plus thin Phaser bindings.",
   "type": "module",
   "sideEffects": false,
