@@ -1,0 +1,4401 @@
+{
+  "meta": {
+    "tile_size": "16;16",
+    "map_size": "120;20",
+    "zoom_level": 1.3999999999999997,
+    "scroll": "1499.3514546169345;610.0394312429912",
+    "offset": "0;0",
+    "render_scale": 3.0,
+    "version": "1.1"
+  },
+  "resources": {
+    "tilesets": [
+      {
+        "path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "type": "tile",
+        "tile_count": 147,
+        "firstgid": 0,
+        "tile_properties": {
+          "24": {}
+        }
+      },
+      {
+        "path": "../../assets/markers_2x2_c16.png",
+        "type": "tile",
+        "tile_count": 4,
+        "firstgid": 147,
+        "tile_properties": {
+          "1": {},
+          "0": {}
+        }
+      }
+    ]
+  },
+  "project_state": {
+    "rules": [
+      {
+        "name": "Rule 1",
+        "neighbors": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          94
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "variant_ids": [
+              94
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 2",
+        "neighbors": [
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          95
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                0,
+                1
+              ]
+            ],
+            "variant_ids": [
+              95
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 3",
+        "neighbors": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          96
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "variant_ids": [
+              96
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 4",
+        "neighbors": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          115
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                1,
+                0
+              ]
+            ],
+            "variant_ids": [
+              115
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 5",
+        "neighbors": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          116
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [],
+            "variant_ids": [
+              116
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 6",
+        "neighbors": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          117
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                -1,
+                0
+              ]
+            ],
+            "variant_ids": [
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 7",
+        "neighbors": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          136
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "variant_ids": [
+              136
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 8",
+        "neighbors": [
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          137
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                0,
+                -1
+              ]
+            ],
+            "variant_ids": [
+              137
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rule 9",
+        "neighbors": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+        "tileset_index": 0,
+        "variant_ids": [
+          138
+        ],
+        "group_id": "Default",
+        "subcases": [
+          {
+            "dist2": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "variant_ids": [
+              138
+            ]
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "name": "Default",
+        "rules": [
+          {
+            "name": "Rule 1",
+            "neighbors": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              94
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "variant_ids": [
+                  94
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 2",
+            "neighbors": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              95
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "variant_ids": [
+                  95
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 3",
+            "neighbors": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              96
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "variant_ids": [
+                  96
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 4",
+            "neighbors": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              115
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "variant_ids": [
+                  115
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 5",
+            "neighbors": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              116
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [],
+                "variant_ids": [
+                  116
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 6",
+            "neighbors": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              117
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "variant_ids": [
+                  117
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 7",
+            "neighbors": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              136
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "variant_ids": [
+                  136
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 8",
+            "neighbors": [
+              [
+                -1,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              137
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "variant_ids": [
+                  137
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rule 9",
+            "neighbors": [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "tileset_path": "../../assets/Gothicvania Swamp files/Evironment/tileset.png",
+            "tileset_index": 0,
+            "variant_ids": [
+              138
+            ],
+            "group_id": "Default",
+            "subcases": [
+              {
+                "dist2": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "variant_ids": [
+                  138
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Group 2",
+        "rules": []
+      }
+    ],
+    "automap_rules": []
+  },
+  "data": {
+    "ongrid": {},
+    "layers": [
+      {
+        "name": "Image Layer 2",
+        "type": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 1.0,
+        "z_index": 0,
+        "y_sort": false,
+        "y_sort_origin": 0,
+        "tiles": {},
+        "image_path": "../../assets/Gothicvania Swamp files/Evironment/background.png",
+        "image_rect": {
+          "x": 1715,
+          "y": 0,
+          "w": 204,
+          "h": 320
+        },
+        "image_placements": [
+          {
+            "pid": 1,
+            "x": 762,
+            "y": 0,
+            "w": 197,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 2,
+            "x": 0,
+            "y": 1,
+            "w": 188,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 3,
+            "x": 184,
+            "y": 0,
+            "w": 201,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 4,
+            "x": 375,
+            "y": 0,
+            "w": 190,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 5,
+            "x": 560,
+            "y": 0,
+            "w": 202,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 6,
+            "x": 1145,
+            "y": 2,
+            "w": 205,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 7,
+            "x": 955,
+            "y": 0,
+            "w": 190,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 8,
+            "x": 1536,
+            "y": 0,
+            "w": 205,
+            "h": 320,
+            "mode": "stretch"
+          },
+          {
+            "pid": 9,
+            "x": 1344,
+            "y": 0,
+            "w": 205,
+            "h": 320,
+            "mode": "stretch"
+          }
+        ],
+        "next_placement_id": 10,
+        "properties": {},
+        "metadata": {}
+      },
+      {
+        "name": "Image Layer 3",
+        "type": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 1.0,
+        "z_index": 1,
+        "y_sort": false,
+        "y_sort_origin": 0,
+        "tiles": {},
+        "image_path": "../../assets/Gothicvania Swamp files/Evironment/mid-layer-01.png",
+        "image_rect": {
+          "x": 0,
+          "y": 0,
+          "w": 250,
+          "h": 327
+        },
+        "image_placements": [
+          {
+            "pid": 1,
+            "x": 448,
+            "y": 0,
+            "w": 240,
+            "h": 327,
+            "mode": "stretch"
+          },
+          {
+            "pid": 2,
+            "x": 240,
+            "y": 0,
+            "w": 223,
+            "h": 327,
+            "mode": "stretch"
+          },
+          {
+            "pid": 3,
+            "x": 688,
+            "y": 0,
+            "w": 273,
+            "h": 327,
+            "mode": "stretch"
+          },
+          {
+            "pid": 4,
+            "x": 1648,
+            "y": 0,
+            "w": 273,
+            "h": 327,
+            "mode": "stretch"
+          },
+          {
+            "pid": 5,
+            "x": 954,
+            "y": 0,
+            "w": 273,
+            "h": 327,
+            "mode": "stretch"
+          },
+          {
+            "pid": 6,
+            "x": 1216,
+            "y": 0,
+            "w": 273,
+            "h": 327,
+            "mode": "stretch"
+          },
+          {
+            "pid": 7,
+            "x": 1488,
+            "y": 0,
+            "w": 273,
+            "h": 327,
+            "mode": "stretch"
+          }
+        ],
+        "next_placement_id": 8,
+        "properties": {},
+        "metadata": {}
+      },
+      {
+        "name": "tileprops",
+        "type": "tile",
+        "visible": true,
+        "locked": false,
+        "opacity": 1.0,
+        "z_index": 2,
+        "y_sort": false,
+        "y_sort_origin": 0,
+        "tiles": {
+          "15;17": {
+            "pos": "15;17",
+            "ttype": 0,
+            "variant": 114,
+            "gid": 114
+          },
+          "15;18": {
+            "pos": "15;18",
+            "ttype": 0,
+            "variant": 135,
+            "gid": 135
+          },
+          "43;17": {
+            "pos": "43;17",
+            "ttype": 0,
+            "variant": 119,
+            "gid": 119
+          },
+          "43;18": {
+            "pos": "43;18",
+            "ttype": 0,
+            "variant": 119,
+            "gid": 119
+          },
+          "43;19": {
+            "pos": "43;19",
+            "ttype": 0,
+            "variant": 140,
+            "gid": 140
+          },
+          "49;17": {
+            "pos": "49;17",
+            "ttype": 0,
+            "variant": 119,
+            "gid": 119
+          },
+          "49;18": {
+            "pos": "49;18",
+            "ttype": 0,
+            "variant": 119,
+            "gid": 119
+          },
+          "49;19": {
+            "pos": "49;19",
+            "ttype": 0,
+            "variant": 140,
+            "gid": 140
+          },
+          "80;14": {
+            "pos": "80;14",
+            "ttype": 0,
+            "variant": 85,
+            "gid": 85
+          },
+          "81;14": {
+            "pos": "81;14",
+            "ttype": 0,
+            "variant": 86,
+            "gid": 86
+          },
+          "82;14": {
+            "pos": "82;14",
+            "ttype": 0,
+            "variant": 87,
+            "gid": 87
+          },
+          "80;15": {
+            "pos": "80;15",
+            "ttype": 0,
+            "variant": 106,
+            "gid": 106
+          },
+          "81;15": {
+            "pos": "81;15",
+            "ttype": 0,
+            "variant": 107,
+            "gid": 107
+          },
+          "82;15": {
+            "pos": "82;15",
+            "ttype": 0,
+            "variant": 108,
+            "gid": 108
+          },
+          "80;16": {
+            "pos": "80;16",
+            "ttype": 0,
+            "variant": 127,
+            "gid": 127
+          },
+          "81;16": {
+            "pos": "81;16",
+            "ttype": 0,
+            "variant": 128,
+            "gid": 128
+          },
+          "82;16": {
+            "pos": "82;16",
+            "ttype": 0,
+            "variant": 129,
+            "gid": 129
+          },
+          "97;15": {
+            "pos": "97;15",
+            "ttype": 0,
+            "variant": 110,
+            "gid": 110
+          },
+          "98;15": {
+            "pos": "98;15",
+            "ttype": 0,
+            "variant": 111,
+            "gid": 111
+          },
+          "97;16": {
+            "pos": "97;16",
+            "ttype": 0,
+            "variant": 131,
+            "gid": 131
+          },
+          "98;16": {
+            "pos": "98;16",
+            "ttype": 0,
+            "variant": 132,
+            "gid": 132
+          },
+          "99;15": {
+            "pos": "99;15",
+            "ttype": 0,
+            "variant": 112,
+            "gid": 112
+          },
+          "100;15": {
+            "pos": "100;15",
+            "ttype": 0,
+            "variant": 113,
+            "gid": 113
+          },
+          "99;16": {
+            "pos": "99;16",
+            "ttype": 0,
+            "variant": 133,
+            "gid": 133
+          },
+          "100;16": {
+            "pos": "100;16",
+            "ttype": 0,
+            "variant": 134,
+            "gid": 134
+          },
+          "101;15": {
+            "pos": "101;15",
+            "ttype": 0,
+            "variant": 110,
+            "gid": 110
+          },
+          "102;15": {
+            "pos": "102;15",
+            "ttype": 0,
+            "variant": 111,
+            "gid": 111
+          },
+          "103;15": {
+            "pos": "103;15",
+            "ttype": 0,
+            "variant": 112,
+            "gid": 112
+          },
+          "104;15": {
+            "pos": "104;15",
+            "ttype": 0,
+            "variant": 113,
+            "gid": 113
+          },
+          "101;16": {
+            "pos": "101;16",
+            "ttype": 0,
+            "variant": 131,
+            "gid": 131
+          },
+          "102;16": {
+            "pos": "102;16",
+            "ttype": 0,
+            "variant": 132,
+            "gid": 132
+          },
+          "103;16": {
+            "pos": "103;16",
+            "ttype": 0,
+            "variant": 133,
+            "gid": 133
+          },
+          "104;16": {
+            "pos": "104;16",
+            "ttype": 0,
+            "variant": 134,
+            "gid": 134
+          },
+          "105;15": {
+            "pos": "105;15",
+            "ttype": 0,
+            "variant": 110,
+            "gid": 110
+          },
+          "106;15": {
+            "pos": "106;15",
+            "ttype": 0,
+            "variant": 111,
+            "gid": 111
+          },
+          "107;15": {
+            "pos": "107;15",
+            "ttype": 0,
+            "variant": 112,
+            "gid": 112
+          },
+          "108;15": {
+            "pos": "108;15",
+            "ttype": 0,
+            "variant": 113,
+            "gid": 113
+          },
+          "105;16": {
+            "pos": "105;16",
+            "ttype": 0,
+            "variant": 131,
+            "gid": 131
+          },
+          "106;16": {
+            "pos": "106;16",
+            "ttype": 0,
+            "variant": 132,
+            "gid": 132
+          },
+          "107;16": {
+            "pos": "107;16",
+            "ttype": 0,
+            "variant": 133,
+            "gid": 133
+          },
+          "108;16": {
+            "pos": "108;16",
+            "ttype": 0,
+            "variant": 134,
+            "gid": 134
+          },
+          "109;15": {
+            "pos": "109;15",
+            "ttype": 0,
+            "variant": 110,
+            "gid": 110
+          },
+          "110;15": {
+            "pos": "110;15",
+            "ttype": 0,
+            "variant": 111,
+            "gid": 111
+          },
+          "111;15": {
+            "pos": "111;15",
+            "ttype": 0,
+            "variant": 112,
+            "gid": 112
+          },
+          "112;15": {
+            "pos": "112;15",
+            "ttype": 0,
+            "variant": 113,
+            "gid": 113
+          },
+          "109;16": {
+            "pos": "109;16",
+            "ttype": 0,
+            "variant": 131,
+            "gid": 131
+          },
+          "110;16": {
+            "pos": "110;16",
+            "ttype": 0,
+            "variant": 132,
+            "gid": 132
+          },
+          "111;16": {
+            "pos": "111;16",
+            "ttype": 0,
+            "variant": 133,
+            "gid": 133
+          },
+          "112;16": {
+            "pos": "112;16",
+            "ttype": 0,
+            "variant": 134,
+            "gid": 134
+          },
+          "113;14": {
+            "pos": "113;14",
+            "ttype": 0,
+            "variant": 85,
+            "gid": 85
+          },
+          "114;14": {
+            "pos": "114;14",
+            "ttype": 0,
+            "variant": 86,
+            "gid": 86
+          },
+          "115;14": {
+            "pos": "115;14",
+            "ttype": 0,
+            "variant": 87,
+            "gid": 87
+          },
+          "116;14": {
+            "pos": "116;14",
+            "ttype": 0,
+            "variant": 88,
+            "gid": 88
+          },
+          "113;15": {
+            "pos": "113;15",
+            "ttype": 0,
+            "variant": 106,
+            "gid": 106
+          },
+          "114;15": {
+            "pos": "114;15",
+            "ttype": 0,
+            "variant": 107,
+            "gid": 107
+          },
+          "115;15": {
+            "pos": "115;15",
+            "ttype": 0,
+            "variant": 108,
+            "gid": 108
+          },
+          "116;15": {
+            "pos": "116;15",
+            "ttype": 0,
+            "variant": 109,
+            "gid": 109
+          },
+          "113;16": {
+            "pos": "113;16",
+            "ttype": 0,
+            "variant": 127,
+            "gid": 127
+          },
+          "114;16": {
+            "pos": "114;16",
+            "ttype": 0,
+            "variant": 128,
+            "gid": 128
+          },
+          "115;16": {
+            "pos": "115;16",
+            "ttype": 0,
+            "variant": 129,
+            "gid": 129
+          },
+          "116;16": {
+            "pos": "116;16",
+            "ttype": 0,
+            "variant": 130,
+            "gid": 130
+          },
+          "40;14": {
+            "pos": "40;14",
+            "ttype": 0,
+            "variant": 85,
+            "gid": 85
+          },
+          "43;14": {
+            "pos": "43;14",
+            "ttype": 0,
+            "variant": 88,
+            "gid": 88
+          },
+          "43;15": {
+            "pos": "43;15",
+            "ttype": 0,
+            "variant": 109,
+            "gid": 109
+          },
+          "43;16": {
+            "pos": "43;16",
+            "ttype": 0,
+            "variant": 130,
+            "gid": 130
+          }
+        },
+        "properties": {}
+      },
+      {
+        "name": "tiles",
+        "type": "tile",
+        "visible": true,
+        "locked": false,
+        "opacity": 1.0,
+        "z_index": 3,
+        "y_sort": false,
+        "y_sort_origin": 0,
+        "tiles": {
+          "0;16": {
+            "pos": "0;16",
+            "ttype": 0,
+            "variant": 0,
+            "gid": 0
+          },
+          "0;17": {
+            "pos": "0;17",
+            "ttype": 0,
+            "variant": 21,
+            "gid": 21
+          },
+          "0;18": {
+            "pos": "0;18",
+            "ttype": 0,
+            "variant": 42,
+            "gid": 42
+          },
+          "0;19": {
+            "pos": "0;19",
+            "ttype": 0,
+            "variant": 63,
+            "gid": 63
+          },
+          "1;16": {
+            "pos": "1;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "2;16": {
+            "pos": "2;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "3;16": {
+            "pos": "3;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "4;16": {
+            "pos": "4;16",
+            "ttype": 0,
+            "variant": 8,
+            "gid": 8
+          },
+          "5;16": {
+            "pos": "5;16",
+            "ttype": 0,
+            "variant": 9,
+            "gid": 9
+          },
+          "1;17": {
+            "pos": "1;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "2;17": {
+            "pos": "2;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24
+          },
+          "3;17": {
+            "pos": "3;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "4;17": {
+            "pos": "4;17",
+            "ttype": 0,
+            "variant": 29,
+            "gid": 29
+          },
+          "5;17": {
+            "pos": "5;17",
+            "ttype": 0,
+            "variant": 30,
+            "gid": 30
+          },
+          "1;18": {
+            "pos": "1;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "2;18": {
+            "pos": "2;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "3;18": {
+            "pos": "3;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "4;18": {
+            "pos": "4;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "5;18": {
+            "pos": "5;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "1;19": {
+            "pos": "1;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "2;19": {
+            "pos": "2;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "3;19": {
+            "pos": "3;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "4;19": {
+            "pos": "4;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "5;19": {
+            "pos": "5;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "6;16": {
+            "pos": "6;16",
+            "ttype": 0,
+            "variant": 10,
+            "gid": 10
+          },
+          "7;16": {
+            "pos": "7;16",
+            "ttype": 0,
+            "variant": 11,
+            "gid": 11
+          },
+          "8;16": {
+            "pos": "8;16",
+            "ttype": 0,
+            "variant": 12,
+            "gid": 12
+          },
+          "9;16": {
+            "pos": "9;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "10;16": {
+            "pos": "10;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "6;17": {
+            "pos": "6;17",
+            "ttype": 0,
+            "variant": 31,
+            "gid": 31
+          },
+          "7;17": {
+            "pos": "7;17",
+            "ttype": 0,
+            "variant": 32,
+            "gid": 32
+          },
+          "8;17": {
+            "pos": "8;17",
+            "ttype": 0,
+            "variant": 33,
+            "gid": 33
+          },
+          "9;17": {
+            "pos": "9;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "10;17": {
+            "pos": "10;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "6;18": {
+            "pos": "6;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "7;18": {
+            "pos": "7;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "8;18": {
+            "pos": "8;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "9;18": {
+            "pos": "9;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "10;18": {
+            "pos": "10;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "6;19": {
+            "pos": "6;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "7;19": {
+            "pos": "7;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "8;19": {
+            "pos": "8;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "9;19": {
+            "pos": "9;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "10;19": {
+            "pos": "10;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "11;16": {
+            "pos": "11;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "12;16": {
+            "pos": "12;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "13;16": {
+            "pos": "13;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "14;16": {
+            "pos": "14;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "15;16": {
+            "pos": "15;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "11;17": {
+            "pos": "11;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "12;17": {
+            "pos": "12;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24
+          },
+          "13;17": {
+            "pos": "13;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "14;17": {
+            "pos": "14;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24
+          },
+          "15;17": {
+            "pos": "15;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "11;18": {
+            "pos": "11;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "12;18": {
+            "pos": "12;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "13;18": {
+            "pos": "13;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "14;18": {
+            "pos": "14;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "15;18": {
+            "pos": "15;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "11;19": {
+            "pos": "11;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "12;19": {
+            "pos": "12;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "13;19": {
+            "pos": "13;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "14;19": {
+            "pos": "14;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "15;19": {
+            "pos": "15;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "16;16": {
+            "pos": "16;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "17;16": {
+            "pos": "17;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "18;16": {
+            "pos": "18;16",
+            "ttype": 0,
+            "variant": 8,
+            "gid": 8
+          },
+          "19;16": {
+            "pos": "19;16",
+            "ttype": 0,
+            "variant": 9,
+            "gid": 9
+          },
+          "20;16": {
+            "pos": "20;16",
+            "ttype": 0,
+            "variant": 10,
+            "gid": 10
+          },
+          "16;17": {
+            "pos": "16;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "17;17": {
+            "pos": "17;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "18;17": {
+            "pos": "18;17",
+            "ttype": 0,
+            "variant": 29,
+            "gid": 29
+          },
+          "19;17": {
+            "pos": "19;17",
+            "ttype": 0,
+            "variant": 30,
+            "gid": 30
+          },
+          "20;17": {
+            "pos": "20;17",
+            "ttype": 0,
+            "variant": 31,
+            "gid": 31
+          },
+          "16;18": {
+            "pos": "16;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "17;18": {
+            "pos": "17;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "18;18": {
+            "pos": "18;18",
+            "ttype": 0,
+            "variant": 50,
+            "gid": 50
+          },
+          "19;18": {
+            "pos": "19;18",
+            "ttype": 0,
+            "variant": 51,
+            "gid": 51
+          },
+          "20;18": {
+            "pos": "20;18",
+            "ttype": 0,
+            "variant": 52,
+            "gid": 52
+          },
+          "16;19": {
+            "pos": "16;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "17;19": {
+            "pos": "17;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "18;19": {
+            "pos": "18;19",
+            "ttype": 0,
+            "variant": 71,
+            "gid": 71
+          },
+          "19;19": {
+            "pos": "19;19",
+            "ttype": 0,
+            "variant": 72,
+            "gid": 72
+          },
+          "20;19": {
+            "pos": "20;19",
+            "ttype": 0,
+            "variant": 73,
+            "gid": 73
+          },
+          "21;16": {
+            "pos": "21;16",
+            "ttype": 0,
+            "variant": 11,
+            "gid": 11
+          },
+          "22;16": {
+            "pos": "22;16",
+            "ttype": 0,
+            "variant": 12,
+            "gid": 12
+          },
+          "23;16": {
+            "pos": "23;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "24;16": {
+            "pos": "24;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "25;16": {
+            "pos": "25;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "21;17": {
+            "pos": "21;17",
+            "ttype": 0,
+            "variant": 32,
+            "gid": 32
+          },
+          "22;17": {
+            "pos": "22;17",
+            "ttype": 0,
+            "variant": 33,
+            "gid": 33
+          },
+          "23;17": {
+            "pos": "23;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "24;17": {
+            "pos": "24;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "25;17": {
+            "pos": "25;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24
+          },
+          "21;18": {
+            "pos": "21;18",
+            "ttype": 0,
+            "variant": 53,
+            "gid": 53
+          },
+          "22;18": {
+            "pos": "22;18",
+            "ttype": 0,
+            "variant": 54,
+            "gid": 54
+          },
+          "23;18": {
+            "pos": "23;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "24;18": {
+            "pos": "24;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "25;18": {
+            "pos": "25;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "21;19": {
+            "pos": "21;19",
+            "ttype": 0,
+            "variant": 74,
+            "gid": 74
+          },
+          "22;19": {
+            "pos": "22;19",
+            "ttype": 0,
+            "variant": 75,
+            "gid": 75
+          },
+          "23;19": {
+            "pos": "23;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "24;19": {
+            "pos": "24;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "25;19": {
+            "pos": "25;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "26;16": {
+            "pos": "26;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "27;16": {
+            "pos": "27;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "28;16": {
+            "pos": "28;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "29;16": {
+            "pos": "29;16",
+            "ttype": 0,
+            "variant": 8,
+            "gid": 8
+          },
+          "26;17": {
+            "pos": "26;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "27;17": {
+            "pos": "27;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "28;17": {
+            "pos": "28;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "29;17": {
+            "pos": "29;17",
+            "ttype": 0,
+            "variant": 29,
+            "gid": 29
+          },
+          "26;18": {
+            "pos": "26;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "27;18": {
+            "pos": "27;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "28;18": {
+            "pos": "28;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "29;18": {
+            "pos": "29;18",
+            "ttype": 0,
+            "variant": 50,
+            "gid": 50
+          },
+          "26;19": {
+            "pos": "26;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "27;19": {
+            "pos": "27;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "28;19": {
+            "pos": "28;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "29;19": {
+            "pos": "29;19",
+            "ttype": 0,
+            "variant": 71,
+            "gid": 71
+          },
+          "30;16": {
+            "pos": "30;16",
+            "ttype": 0,
+            "variant": 9,
+            "gid": 9
+          },
+          "31;16": {
+            "pos": "31;16",
+            "ttype": 0,
+            "variant": 10,
+            "gid": 10
+          },
+          "32;16": {
+            "pos": "32;16",
+            "ttype": 0,
+            "variant": 11,
+            "gid": 11
+          },
+          "33;16": {
+            "pos": "33;16",
+            "ttype": 0,
+            "variant": 12,
+            "gid": 12
+          },
+          "30;17": {
+            "pos": "30;17",
+            "ttype": 0,
+            "variant": 30,
+            "gid": 30
+          },
+          "31;17": {
+            "pos": "31;17",
+            "ttype": 0,
+            "variant": 31,
+            "gid": 31
+          },
+          "32;17": {
+            "pos": "32;17",
+            "ttype": 0,
+            "variant": 32,
+            "gid": 32
+          },
+          "33;17": {
+            "pos": "33;17",
+            "ttype": 0,
+            "variant": 33,
+            "gid": 33
+          },
+          "30;18": {
+            "pos": "30;18",
+            "ttype": 0,
+            "variant": 51,
+            "gid": 51
+          },
+          "31;18": {
+            "pos": "31;18",
+            "ttype": 0,
+            "variant": 52,
+            "gid": 52
+          },
+          "32;18": {
+            "pos": "32;18",
+            "ttype": 0,
+            "variant": 53,
+            "gid": 53
+          },
+          "33;18": {
+            "pos": "33;18",
+            "ttype": 0,
+            "variant": 54,
+            "gid": 54
+          },
+          "30;19": {
+            "pos": "30;19",
+            "ttype": 0,
+            "variant": 72,
+            "gid": 72
+          },
+          "31;19": {
+            "pos": "31;19",
+            "ttype": 0,
+            "variant": 73,
+            "gid": 73
+          },
+          "32;19": {
+            "pos": "32;19",
+            "ttype": 0,
+            "variant": 74,
+            "gid": 74
+          },
+          "33;19": {
+            "pos": "33;19",
+            "ttype": 0,
+            "variant": 75,
+            "gid": 75
+          },
+          "34;16": {
+            "pos": "34;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "35;16": {
+            "pos": "35;16",
+            "ttype": 0,
+            "variant": 8,
+            "gid": 8
+          },
+          "36;16": {
+            "pos": "36;16",
+            "ttype": 0,
+            "variant": 9,
+            "gid": 9
+          },
+          "37;16": {
+            "pos": "37;16",
+            "ttype": 0,
+            "variant": 10,
+            "gid": 10
+          },
+          "38;16": {
+            "pos": "38;16",
+            "ttype": 0,
+            "variant": 11,
+            "gid": 11
+          },
+          "34;17": {
+            "pos": "34;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "35;17": {
+            "pos": "35;17",
+            "ttype": 0,
+            "variant": 29,
+            "gid": 29
+          },
+          "36;17": {
+            "pos": "36;17",
+            "ttype": 0,
+            "variant": 30,
+            "gid": 30
+          },
+          "37;17": {
+            "pos": "37;17",
+            "ttype": 0,
+            "variant": 31,
+            "gid": 31
+          },
+          "38;17": {
+            "pos": "38;17",
+            "ttype": 0,
+            "variant": 32,
+            "gid": 32
+          },
+          "34;18": {
+            "pos": "34;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "35;18": {
+            "pos": "35;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "36;18": {
+            "pos": "36;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "37;18": {
+            "pos": "37;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "38;18": {
+            "pos": "38;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "34;19": {
+            "pos": "34;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "35;19": {
+            "pos": "35;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "36;19": {
+            "pos": "36;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "37;19": {
+            "pos": "37;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "38;19": {
+            "pos": "38;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "39;16": {
+            "pos": "39;16",
+            "ttype": 0,
+            "variant": 12,
+            "gid": 12
+          },
+          "40;16": {
+            "pos": "40;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "41;16": {
+            "pos": "41;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "42;16": {
+            "pos": "42;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "43;16": {
+            "pos": "43;16",
+            "ttype": 0,
+            "variant": 20,
+            "gid": 20
+          },
+          "39;17": {
+            "pos": "39;17",
+            "ttype": 0,
+            "variant": 33,
+            "gid": 33
+          },
+          "40;17": {
+            "pos": "40;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24
+          },
+          "41;17": {
+            "pos": "41;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "42;17": {
+            "pos": "42;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "43;17": {
+            "pos": "43;17",
+            "ttype": 0,
+            "variant": 41,
+            "gid": 41
+          },
+          "39;18": {
+            "pos": "39;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "40;18": {
+            "pos": "40;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "41;18": {
+            "pos": "41;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "42;18": {
+            "pos": "42;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "43;18": {
+            "pos": "43;18",
+            "ttype": 0,
+            "variant": 62,
+            "gid": 62
+          },
+          "39;19": {
+            "pos": "39;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "40;19": {
+            "pos": "40;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "41;19": {
+            "pos": "41;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "42;19": {
+            "pos": "42;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "43;19": {
+            "pos": "43;19",
+            "ttype": 0,
+            "variant": 83,
+            "gid": 83
+          },
+          "44;18": {
+            "pos": "44;18",
+            "ttype": 0,
+            "variant": 140,
+            "gid": 140
+          },
+          "45;18": {
+            "pos": "45;18",
+            "ttype": 0,
+            "variant": 141,
+            "gid": 141
+          },
+          "46;18": {
+            "pos": "46;18",
+            "ttype": 0,
+            "variant": 142,
+            "gid": 142
+          },
+          "47;18": {
+            "pos": "47;18",
+            "ttype": 0,
+            "variant": 143,
+            "gid": 143
+          },
+          "44;19": {
+            "pos": "44;19",
+            "ttype": 0,
+            "variant": 140,
+            "gid": 140
+          },
+          "45;19": {
+            "pos": "45;19",
+            "ttype": 0,
+            "variant": 141,
+            "gid": 141
+          },
+          "46;19": {
+            "pos": "46;19",
+            "ttype": 0,
+            "variant": 142,
+            "gid": 142
+          },
+          "47;19": {
+            "pos": "47;19",
+            "ttype": 0,
+            "variant": 143,
+            "gid": 143
+          },
+          "44;17": {
+            "pos": "44;17",
+            "ttype": 0,
+            "variant": 119,
+            "gid": 119
+          },
+          "45;17": {
+            "pos": "45;17",
+            "ttype": 0,
+            "variant": 120,
+            "gid": 120
+          },
+          "46;17": {
+            "pos": "46;17",
+            "ttype": 0,
+            "variant": 121,
+            "gid": 121
+          },
+          "47;17": {
+            "pos": "47;17",
+            "ttype": 0,
+            "variant": 119,
+            "gid": 119
+          },
+          "48;17": {
+            "pos": "48;17",
+            "ttype": 0,
+            "variant": 119,
+            "gid": 119
+          },
+          "48;18": {
+            "pos": "48;18",
+            "ttype": 0,
+            "variant": 140,
+            "gid": 140
+          },
+          "48;19": {
+            "pos": "48;19",
+            "ttype": 0,
+            "variant": 140,
+            "gid": 140
+          },
+          "52;16": {
+            "pos": "52;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "53;16": {
+            "pos": "53;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "54;16": {
+            "pos": "54;16",
+            "ttype": 0,
+            "variant": 16,
+            "gid": 16
+          },
+          "55;16": {
+            "pos": "55;16",
+            "ttype": 0,
+            "variant": 17,
+            "gid": 17
+          },
+          "56;16": {
+            "pos": "56;16",
+            "ttype": 0,
+            "variant": 18,
+            "gid": 18
+          },
+          "52;17": {
+            "pos": "52;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "53;17": {
+            "pos": "53;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "54;17": {
+            "pos": "54;17",
+            "ttype": 0,
+            "variant": 37,
+            "gid": 37
+          },
+          "55;17": {
+            "pos": "55;17",
+            "ttype": 0,
+            "variant": 38,
+            "gid": 38
+          },
+          "56;17": {
+            "pos": "56;17",
+            "ttype": 0,
+            "variant": 39,
+            "gid": 39
+          },
+          "52;18": {
+            "pos": "52;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "53;18": {
+            "pos": "53;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "54;18": {
+            "pos": "54;18",
+            "ttype": 0,
+            "variant": 58,
+            "gid": 58
+          },
+          "55;18": {
+            "pos": "55;18",
+            "ttype": 0,
+            "variant": 59,
+            "gid": 59
+          },
+          "56;18": {
+            "pos": "56;18",
+            "ttype": 0,
+            "variant": 60,
+            "gid": 60
+          },
+          "52;19": {
+            "pos": "52;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "53;19": {
+            "pos": "53;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "54;19": {
+            "pos": "54;19",
+            "ttype": 0,
+            "variant": 79,
+            "gid": 79
+          },
+          "55;19": {
+            "pos": "55;19",
+            "ttype": 0,
+            "variant": 80,
+            "gid": 80
+          },
+          "56;19": {
+            "pos": "56;19",
+            "ttype": 0,
+            "variant": 81,
+            "gid": 81
+          },
+          "57;16": {
+            "pos": "57;16",
+            "ttype": 0,
+            "variant": 14,
+            "gid": 14
+          },
+          "58;16": {
+            "pos": "58;16",
+            "ttype": 0,
+            "variant": 18,
+            "gid": 18
+          },
+          "57;17": {
+            "pos": "57;17",
+            "ttype": 0,
+            "variant": 35,
+            "gid": 35
+          },
+          "58;17": {
+            "pos": "58;17",
+            "ttype": 0,
+            "variant": 39,
+            "gid": 39
+          },
+          "57;18": {
+            "pos": "57;18",
+            "ttype": 0,
+            "variant": 56,
+            "gid": 56
+          },
+          "58;18": {
+            "pos": "58;18",
+            "ttype": 0,
+            "variant": 60,
+            "gid": 60
+          },
+          "57;19": {
+            "pos": "57;19",
+            "ttype": 0,
+            "variant": 77,
+            "gid": 77
+          },
+          "58;19": {
+            "pos": "58;19",
+            "ttype": 0,
+            "variant": 81,
+            "gid": 81
+          },
+          "59;16": {
+            "pos": "59;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "59;17": {
+            "pos": "59;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "59;18": {
+            "pos": "59;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "59;19": {
+            "pos": "59;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "49;16": {
+            "pos": "49;16",
+            "ttype": 0,
+            "variant": 0,
+            "gid": 0
+          },
+          "50;16": {
+            "pos": "50;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "51;16": {
+            "pos": "51;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "49;17": {
+            "pos": "49;17",
+            "ttype": 0,
+            "variant": 21,
+            "gid": 21
+          },
+          "50;17": {
+            "pos": "50;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24
+          },
+          "51;17": {
+            "pos": "51;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "49;18": {
+            "pos": "49;18",
+            "ttype": 0,
+            "variant": 42,
+            "gid": 42
+          },
+          "50;18": {
+            "pos": "50;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "51;18": {
+            "pos": "51;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "49;19": {
+            "pos": "49;19",
+            "ttype": 0,
+            "variant": 63,
+            "gid": 63
+          },
+          "50;19": {
+            "pos": "50;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "51;19": {
+            "pos": "51;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "60;16": {
+            "pos": "60;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "61;16": {
+            "pos": "61;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "62;16": {
+            "pos": "62;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "63;16": {
+            "pos": "63;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "60;17": {
+            "pos": "60;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24,
+            "properties": {}
+          },
+          "61;17": {
+            "pos": "61;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "62;17": {
+            "pos": "62;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "63;17": {
+            "pos": "63;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "60;18": {
+            "pos": "60;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "61;18": {
+            "pos": "61;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "62;18": {
+            "pos": "62;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "63;18": {
+            "pos": "63;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "60;19": {
+            "pos": "60;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "61;19": {
+            "pos": "61;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "62;19": {
+            "pos": "62;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "63;19": {
+            "pos": "63;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "64;16": {
+            "pos": "64;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "65;16": {
+            "pos": "65;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "66;16": {
+            "pos": "66;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "64;17": {
+            "pos": "64;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "65;17": {
+            "pos": "65;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "66;17": {
+            "pos": "66;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "64;18": {
+            "pos": "64;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "65;18": {
+            "pos": "65;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "66;18": {
+            "pos": "66;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "64;19": {
+            "pos": "64;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "65;19": {
+            "pos": "65;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "66;19": {
+            "pos": "66;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "67;16": {
+            "pos": "67;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "68;16": {
+            "pos": "68;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "69;16": {
+            "pos": "69;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "67;17": {
+            "pos": "67;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "68;17": {
+            "pos": "68;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "69;17": {
+            "pos": "69;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "67;18": {
+            "pos": "67;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "68;18": {
+            "pos": "68;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "69;18": {
+            "pos": "69;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "67;19": {
+            "pos": "67;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "68;19": {
+            "pos": "68;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "69;19": {
+            "pos": "69;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "70;16": {
+            "pos": "70;16",
+            "ttype": 0,
+            "variant": 8,
+            "gid": 8
+          },
+          "71;16": {
+            "pos": "71;16",
+            "ttype": 0,
+            "variant": 9,
+            "gid": 9
+          },
+          "72;16": {
+            "pos": "72;16",
+            "ttype": 0,
+            "variant": 10,
+            "gid": 10
+          },
+          "73;16": {
+            "pos": "73;16",
+            "ttype": 0,
+            "variant": 11,
+            "gid": 11
+          },
+          "74;16": {
+            "pos": "74;16",
+            "ttype": 0,
+            "variant": 12,
+            "gid": 12
+          },
+          "70;17": {
+            "pos": "70;17",
+            "ttype": 0,
+            "variant": 29,
+            "gid": 29
+          },
+          "71;17": {
+            "pos": "71;17",
+            "ttype": 0,
+            "variant": 30,
+            "gid": 30
+          },
+          "72;17": {
+            "pos": "72;17",
+            "ttype": 0,
+            "variant": 31,
+            "gid": 31
+          },
+          "73;17": {
+            "pos": "73;17",
+            "ttype": 0,
+            "variant": 32,
+            "gid": 32
+          },
+          "74;17": {
+            "pos": "74;17",
+            "ttype": 0,
+            "variant": 33,
+            "gid": 33
+          },
+          "70;18": {
+            "pos": "70;18",
+            "ttype": 0,
+            "variant": 50,
+            "gid": 50
+          },
+          "71;18": {
+            "pos": "71;18",
+            "ttype": 0,
+            "variant": 51,
+            "gid": 51
+          },
+          "72;18": {
+            "pos": "72;18",
+            "ttype": 0,
+            "variant": 52,
+            "gid": 52
+          },
+          "73;18": {
+            "pos": "73;18",
+            "ttype": 0,
+            "variant": 53,
+            "gid": 53
+          },
+          "74;18": {
+            "pos": "74;18",
+            "ttype": 0,
+            "variant": 54,
+            "gid": 54
+          },
+          "70;19": {
+            "pos": "70;19",
+            "ttype": 0,
+            "variant": 71,
+            "gid": 71
+          },
+          "71;19": {
+            "pos": "71;19",
+            "ttype": 0,
+            "variant": 72,
+            "gid": 72
+          },
+          "72;19": {
+            "pos": "72;19",
+            "ttype": 0,
+            "variant": 73,
+            "gid": 73
+          },
+          "73;19": {
+            "pos": "73;19",
+            "ttype": 0,
+            "variant": 74,
+            "gid": 74
+          },
+          "74;19": {
+            "pos": "74;19",
+            "ttype": 0,
+            "variant": 75,
+            "gid": 75
+          },
+          "75;16": {
+            "pos": "75;16",
+            "ttype": 0,
+            "variant": 14,
+            "gid": 14
+          },
+          "76;16": {
+            "pos": "76;16",
+            "ttype": 0,
+            "variant": 15,
+            "gid": 15
+          },
+          "77;16": {
+            "pos": "77;16",
+            "ttype": 0,
+            "variant": 16,
+            "gid": 16
+          },
+          "78;16": {
+            "pos": "78;16",
+            "ttype": 0,
+            "variant": 17,
+            "gid": 17
+          },
+          "79;16": {
+            "pos": "79;16",
+            "ttype": 0,
+            "variant": 18,
+            "gid": 18
+          },
+          "75;17": {
+            "pos": "75;17",
+            "ttype": 0,
+            "variant": 35,
+            "gid": 35
+          },
+          "76;17": {
+            "pos": "76;17",
+            "ttype": 0,
+            "variant": 36,
+            "gid": 36
+          },
+          "77;17": {
+            "pos": "77;17",
+            "ttype": 0,
+            "variant": 37,
+            "gid": 37
+          },
+          "78;17": {
+            "pos": "78;17",
+            "ttype": 0,
+            "variant": 38,
+            "gid": 38
+          },
+          "79;17": {
+            "pos": "79;17",
+            "ttype": 0,
+            "variant": 39,
+            "gid": 39
+          },
+          "75;18": {
+            "pos": "75;18",
+            "ttype": 0,
+            "variant": 56,
+            "gid": 56
+          },
+          "76;18": {
+            "pos": "76;18",
+            "ttype": 0,
+            "variant": 57,
+            "gid": 57
+          },
+          "77;18": {
+            "pos": "77;18",
+            "ttype": 0,
+            "variant": 58,
+            "gid": 58
+          },
+          "78;18": {
+            "pos": "78;18",
+            "ttype": 0,
+            "variant": 59,
+            "gid": 59
+          },
+          "79;18": {
+            "pos": "79;18",
+            "ttype": 0,
+            "variant": 60,
+            "gid": 60
+          },
+          "75;19": {
+            "pos": "75;19",
+            "ttype": 0,
+            "variant": 77,
+            "gid": 77
+          },
+          "76;19": {
+            "pos": "76;19",
+            "ttype": 0,
+            "variant": 78,
+            "gid": 78
+          },
+          "77;19": {
+            "pos": "77;19",
+            "ttype": 0,
+            "variant": 79,
+            "gid": 79
+          },
+          "78;19": {
+            "pos": "78;19",
+            "ttype": 0,
+            "variant": 80,
+            "gid": 80
+          },
+          "79;19": {
+            "pos": "79;19",
+            "ttype": 0,
+            "variant": 81,
+            "gid": 81
+          },
+          "80;16": {
+            "pos": "80;16",
+            "ttype": 0,
+            "variant": 2,
+            "gid": 2
+          },
+          "81;16": {
+            "pos": "81;16",
+            "ttype": 0,
+            "variant": 3,
+            "gid": 3
+          },
+          "82;16": {
+            "pos": "82;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "83;16": {
+            "pos": "83;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "84;16": {
+            "pos": "84;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "80;17": {
+            "pos": "80;17",
+            "ttype": 0,
+            "variant": 23,
+            "gid": 23
+          },
+          "81;17": {
+            "pos": "81;17",
+            "ttype": 0,
+            "variant": 24,
+            "gid": 24,
+            "properties": {}
+          },
+          "82;17": {
+            "pos": "82;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "83;17": {
+            "pos": "83;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "84;17": {
+            "pos": "84;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "80;18": {
+            "pos": "80;18",
+            "ttype": 0,
+            "variant": 44,
+            "gid": 44
+          },
+          "81;18": {
+            "pos": "81;18",
+            "ttype": 0,
+            "variant": 45,
+            "gid": 45
+          },
+          "82;18": {
+            "pos": "82;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "83;18": {
+            "pos": "83;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "84;18": {
+            "pos": "84;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "80;19": {
+            "pos": "80;19",
+            "ttype": 0,
+            "variant": 65,
+            "gid": 65
+          },
+          "81;19": {
+            "pos": "81;19",
+            "ttype": 0,
+            "variant": 66,
+            "gid": 66
+          },
+          "82;19": {
+            "pos": "82;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "83;19": {
+            "pos": "83;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "84;19": {
+            "pos": "84;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "85;16": {
+            "pos": "85;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "86;16": {
+            "pos": "86;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "87;16": {
+            "pos": "87;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "88;16": {
+            "pos": "88;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "89;16": {
+            "pos": "89;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "85;17": {
+            "pos": "85;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "86;17": {
+            "pos": "86;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "87;17": {
+            "pos": "87;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "88;17": {
+            "pos": "88;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "89;17": {
+            "pos": "89;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "85;18": {
+            "pos": "85;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "86;18": {
+            "pos": "86;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "87;18": {
+            "pos": "87;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "88;18": {
+            "pos": "88;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "89;18": {
+            "pos": "89;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "85;19": {
+            "pos": "85;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "86;19": {
+            "pos": "86;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "87;19": {
+            "pos": "87;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "88;19": {
+            "pos": "88;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "89;19": {
+            "pos": "89;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "90;16": {
+            "pos": "90;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "91;16": {
+            "pos": "91;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "92;16": {
+            "pos": "92;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "93;16": {
+            "pos": "93;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "94;16": {
+            "pos": "94;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "90;17": {
+            "pos": "90;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "91;17": {
+            "pos": "91;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "92;17": {
+            "pos": "92;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "93;17": {
+            "pos": "93;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "94;17": {
+            "pos": "94;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "90;18": {
+            "pos": "90;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "91;18": {
+            "pos": "91;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "92;18": {
+            "pos": "92;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "93;18": {
+            "pos": "93;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "94;18": {
+            "pos": "94;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "90;19": {
+            "pos": "90;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "91;19": {
+            "pos": "91;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "92;19": {
+            "pos": "92;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "93;19": {
+            "pos": "93;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "94;19": {
+            "pos": "94;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "95;16": {
+            "pos": "95;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "96;16": {
+            "pos": "96;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "97;16": {
+            "pos": "97;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "98;16": {
+            "pos": "98;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "99;16": {
+            "pos": "99;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "95;17": {
+            "pos": "95;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "96;17": {
+            "pos": "96;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "97;17": {
+            "pos": "97;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "98;17": {
+            "pos": "98;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "99;17": {
+            "pos": "99;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "95;18": {
+            "pos": "95;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "96;18": {
+            "pos": "96;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "97;18": {
+            "pos": "97;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "98;18": {
+            "pos": "98;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "99;18": {
+            "pos": "99;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "95;19": {
+            "pos": "95;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "96;19": {
+            "pos": "96;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "97;19": {
+            "pos": "97;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "98;19": {
+            "pos": "98;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "99;19": {
+            "pos": "99;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "100;16": {
+            "pos": "100;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "101;16": {
+            "pos": "101;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "102;16": {
+            "pos": "102;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "103;16": {
+            "pos": "103;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "104;16": {
+            "pos": "104;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "100;17": {
+            "pos": "100;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "101;17": {
+            "pos": "101;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "102;17": {
+            "pos": "102;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "103;17": {
+            "pos": "103;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "104;17": {
+            "pos": "104;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "100;18": {
+            "pos": "100;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "101;18": {
+            "pos": "101;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "102;18": {
+            "pos": "102;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "103;18": {
+            "pos": "103;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "104;18": {
+            "pos": "104;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "100;19": {
+            "pos": "100;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "101;19": {
+            "pos": "101;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "102;19": {
+            "pos": "102;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "103;19": {
+            "pos": "103;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "104;19": {
+            "pos": "104;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "105;16": {
+            "pos": "105;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "106;16": {
+            "pos": "106;16",
+            "ttype": 0,
+            "variant": 4,
+            "gid": 4
+          },
+          "107;16": {
+            "pos": "107;16",
+            "ttype": 0,
+            "variant": 5,
+            "gid": 5
+          },
+          "108;16": {
+            "pos": "108;16",
+            "ttype": 0,
+            "variant": 6,
+            "gid": 6
+          },
+          "109;16": {
+            "pos": "109;16",
+            "ttype": 0,
+            "variant": 18,
+            "gid": 18
+          },
+          "105;17": {
+            "pos": "105;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "106;17": {
+            "pos": "106;17",
+            "ttype": 0,
+            "variant": 25,
+            "gid": 25
+          },
+          "107;17": {
+            "pos": "107;17",
+            "ttype": 0,
+            "variant": 26,
+            "gid": 26
+          },
+          "108;17": {
+            "pos": "108;17",
+            "ttype": 0,
+            "variant": 27,
+            "gid": 27
+          },
+          "109;17": {
+            "pos": "109;17",
+            "ttype": 0,
+            "variant": 39,
+            "gid": 39
+          },
+          "105;18": {
+            "pos": "105;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "106;18": {
+            "pos": "106;18",
+            "ttype": 0,
+            "variant": 46,
+            "gid": 46
+          },
+          "107;18": {
+            "pos": "107;18",
+            "ttype": 0,
+            "variant": 47,
+            "gid": 47
+          },
+          "108;18": {
+            "pos": "108;18",
+            "ttype": 0,
+            "variant": 48,
+            "gid": 48
+          },
+          "109;18": {
+            "pos": "109;18",
+            "ttype": 0,
+            "variant": 60,
+            "gid": 60
+          },
+          "105;19": {
+            "pos": "105;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "106;19": {
+            "pos": "106;19",
+            "ttype": 0,
+            "variant": 67,
+            "gid": 67
+          },
+          "107;19": {
+            "pos": "107;19",
+            "ttype": 0,
+            "variant": 68,
+            "gid": 68
+          },
+          "108;19": {
+            "pos": "108;19",
+            "ttype": 0,
+            "variant": 69,
+            "gid": 69
+          },
+          "109;19": {
+            "pos": "109;19",
+            "ttype": 0,
+            "variant": 81,
+            "gid": 81
+          },
+          "110;16": {
+            "pos": "110;16",
+            "ttype": 0,
+            "variant": 14,
+            "gid": 14
+          },
+          "111;16": {
+            "pos": "111;16",
+            "ttype": 0,
+            "variant": 15,
+            "gid": 15
+          },
+          "112;16": {
+            "pos": "112;16",
+            "ttype": 0,
+            "variant": 8,
+            "gid": 8
+          },
+          "113;16": {
+            "pos": "113;16",
+            "ttype": 0,
+            "variant": 9,
+            "gid": 9
+          },
+          "114;16": {
+            "pos": "114;16",
+            "ttype": 0,
+            "variant": 10,
+            "gid": 10
+          },
+          "110;17": {
+            "pos": "110;17",
+            "ttype": 0,
+            "variant": 35,
+            "gid": 35
+          },
+          "111;17": {
+            "pos": "111;17",
+            "ttype": 0,
+            "variant": 36,
+            "gid": 36
+          },
+          "112;17": {
+            "pos": "112;17",
+            "ttype": 0,
+            "variant": 29,
+            "gid": 29
+          },
+          "113;17": {
+            "pos": "113;17",
+            "ttype": 0,
+            "variant": 30,
+            "gid": 30
+          },
+          "114;17": {
+            "pos": "114;17",
+            "ttype": 0,
+            "variant": 31,
+            "gid": 31
+          },
+          "110;18": {
+            "pos": "110;18",
+            "ttype": 0,
+            "variant": 56,
+            "gid": 56
+          },
+          "111;18": {
+            "pos": "111;18",
+            "ttype": 0,
+            "variant": 57,
+            "gid": 57
+          },
+          "112;18": {
+            "pos": "112;18",
+            "ttype": 0,
+            "variant": 50,
+            "gid": 50
+          },
+          "113;18": {
+            "pos": "113;18",
+            "ttype": 0,
+            "variant": 51,
+            "gid": 51
+          },
+          "114;18": {
+            "pos": "114;18",
+            "ttype": 0,
+            "variant": 52,
+            "gid": 52
+          },
+          "110;19": {
+            "pos": "110;19",
+            "ttype": 0,
+            "variant": 77,
+            "gid": 77
+          },
+          "111;19": {
+            "pos": "111;19",
+            "ttype": 0,
+            "variant": 78,
+            "gid": 78
+          },
+          "112;19": {
+            "pos": "112;19",
+            "ttype": 0,
+            "variant": 71,
+            "gid": 71
+          },
+          "113;19": {
+            "pos": "113;19",
+            "ttype": 0,
+            "variant": 72,
+            "gid": 72
+          },
+          "114;19": {
+            "pos": "114;19",
+            "ttype": 0,
+            "variant": 73,
+            "gid": 73
+          },
+          "115;16": {
+            "pos": "115;16",
+            "ttype": 0,
+            "variant": 11,
+            "gid": 11
+          },
+          "116;16": {
+            "pos": "116;16",
+            "ttype": 0,
+            "variant": 12,
+            "gid": 12
+          },
+          "117;16": {
+            "pos": "117;16",
+            "ttype": 0,
+            "variant": 17,
+            "gid": 17
+          },
+          "118;16": {
+            "pos": "118;16",
+            "ttype": 0,
+            "variant": 18,
+            "gid": 18
+          },
+          "115;17": {
+            "pos": "115;17",
+            "ttype": 0,
+            "variant": 32,
+            "gid": 32
+          },
+          "116;17": {
+            "pos": "116;17",
+            "ttype": 0,
+            "variant": 33,
+            "gid": 33
+          },
+          "117;17": {
+            "pos": "117;17",
+            "ttype": 0,
+            "variant": 38,
+            "gid": 38
+          },
+          "118;17": {
+            "pos": "118;17",
+            "ttype": 0,
+            "variant": 39,
+            "gid": 39
+          },
+          "115;18": {
+            "pos": "115;18",
+            "ttype": 0,
+            "variant": 53,
+            "gid": 53
+          },
+          "116;18": {
+            "pos": "116;18",
+            "ttype": 0,
+            "variant": 54,
+            "gid": 54
+          },
+          "117;18": {
+            "pos": "117;18",
+            "ttype": 0,
+            "variant": 59,
+            "gid": 59
+          },
+          "118;18": {
+            "pos": "118;18",
+            "ttype": 0,
+            "variant": 60,
+            "gid": 60
+          },
+          "115;19": {
+            "pos": "115;19",
+            "ttype": 0,
+            "variant": 74,
+            "gid": 74
+          },
+          "116;19": {
+            "pos": "116;19",
+            "ttype": 0,
+            "variant": 75,
+            "gid": 75
+          },
+          "117;19": {
+            "pos": "117;19",
+            "ttype": 0,
+            "variant": 80,
+            "gid": 80
+          },
+          "118;19": {
+            "pos": "118;19",
+            "ttype": 0,
+            "variant": 81,
+            "gid": 81
+          },
+          "119;16": {
+            "pos": "119;16",
+            "ttype": 0,
+            "variant": 20,
+            "gid": 20
+          },
+          "119;17": {
+            "pos": "119;17",
+            "ttype": 0,
+            "variant": 41,
+            "gid": 41
+          },
+          "119;18": {
+            "pos": "119;18",
+            "ttype": 0,
+            "variant": 62,
+            "gid": 62
+          },
+          "119;19": {
+            "pos": "119;19",
+            "ttype": 0,
+            "variant": 83,
+            "gid": 83
+          }
+        },
+        "properties": {}
+      },
+      {
+        "name": "objects",
+        "type": "object",
+        "visible": true,
+        "locked": false,
+        "opacity": 1.0,
+        "z_index": 4,
+        "y_sort": false,
+        "y_sort_origin": 0,
+        "tiles": {},
+        "objects": {
+          "2": {
+            "area": {
+              "x": 193,
+              "y": 239,
+              "w": 80,
+              "h": 32
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 110,
+            "properties": {}
+          },
+          "3": {
+            "area": {
+              "x": 248,
+              "y": 241,
+              "w": 80,
+              "h": 32
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 110,
+            "properties": {}
+          },
+          "4": {
+            "area": {
+              "x": 366,
+              "y": 244,
+              "w": 80,
+              "h": 32
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 110,
+            "properties": {}
+          },
+          "5": {
+            "area": {
+              "x": 366,
+              "y": 244,
+              "w": 80,
+              "h": 32
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 110,
+            "properties": {}
+          },
+          "6": {
+            "area": {
+              "x": 520,
+              "y": 229,
+              "w": 48,
+              "h": 48
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 94,
+            "properties": {}
+          },
+          "7": {
+            "area": {
+              "x": 521,
+              "y": 266,
+              "w": 48,
+              "h": 48
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 94,
+            "properties": {}
+          },
+          "8": {
+            "area": {
+              "x": 632,
+              "y": 226,
+              "w": 48,
+              "h": 48
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 85,
+            "properties": {}
+          },
+          "9": {
+            "area": {
+              "x": -8,
+              "y": 229,
+              "w": 48,
+              "h": 48
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 85,
+            "properties": {}
+          },
+          "10": {
+            "area": {
+              "x": 38,
+              "y": 238,
+              "w": 80,
+              "h": 32
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 110,
+            "properties": {}
+          },
+          "11": {
+            "area": {
+              "x": 160,
+              "y": 229,
+              "w": 48,
+              "h": 48
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 94,
+            "properties": {}
+          },
+          "12": {
+            "area": {
+              "x": 1362,
+              "y": 230,
+              "w": 48,
+              "h": 48
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 85,
+            "properties": {}
+          },
+          "13": {
+            "area": {
+              "x": 1239,
+              "y": 261,
+              "w": 48,
+              "h": 48
+            },
+            "ttype": 0,
+            "tileset_type": "tile",
+            "variant": 85,
+            "properties": {}
+          }
+        },
+        "next_object_id": 14,
+        "properties": {}
+      },
+      {
+        "name": "datalayer",
+        "type": "object",
+        "visible": true,
+        "locked": false,
+        "opacity": 1.0,
+        "z_index": 5,
+        "y_sort": false,
+        "y_sort_origin": 0,
+        "tiles": {},
+        "objects": {
+          "3": {
+            "area": {
+              "x": 81,
+              "y": 247,
+              "w": 16,
+              "h": 16
+            },
+            "ttype": 1,
+            "tileset_type": "tile",
+            "variant": 1,
+            "properties": {
+              "name": "player_spwan"
+            }
+          },
+          "4": {
+            "area": {
+              "x": 209,
+              "y": 237,
+              "w": 16,
+              "h": 16
+            },
+            "ttype": 1,
+            "tileset_type": "tile",
+            "variant": 0,
+            "properties": {
+              "name": "ghost"
+            }
+          },
+          "5": {
+            "area": {
+              "x": 629,
+              "y": 228,
+              "w": 16,
+              "h": 16
+            },
+            "ttype": 1,
+            "tileset_type": "tile",
+            "variant": 0,
+            "properties": {
+              "name": "ghost"
+            }
+          },
+          "7": {
+            "area": {
+              "x": 1093,
+              "y": 212,
+              "w": 16,
+              "h": 16
+            },
+            "ttype": 1,
+            "tileset_type": "tile",
+            "variant": 0,
+            "properties": {
+              "name": "ghost"
+            }
+          },
+          "8": {
+            "area": {
+              "x": 1381,
+              "y": 228,
+              "w": 16,
+              "h": 16
+            },
+            "ttype": 1,
+            "tileset_type": "tile",
+            "variant": 0,
+            "properties": {
+              "name": "ghost"
+            }
+          },
+          "9": {
+            "area": {
+              "x": 1797,
+              "y": 228,
+              "w": 16,
+              "h": 16
+            },
+            "ttype": 1,
+            "tileset_type": "tile",
+            "variant": 0,
+            "properties": {
+              "name": "ghost"
+            }
+          }
+        },
+        "next_object_id": 10,
+        "properties": {}
+      }
+    ]
+  }
+}

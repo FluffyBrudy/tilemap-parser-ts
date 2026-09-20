@@ -1,0 +1,47 @@
+{
+  "name": "tilemap-parser-ts",
+  "version": "0.1.0",
+  "description": "TypeScript port of tilemap-parser core (Phaser-targeted library). Engine-agnostic core plus thin Phaser bindings.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./core": "./dist/core/index.js",
+    "./phaser": "./dist/phaser/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/core/index.js",
+  "types": "./dist/core/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -p tsconfig.json --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src tests --ext .ts",
+    "clean": "rm -rf dist coverage"
+  },
+  "peerDependencies": {
+    "phaser": ">=3.60.0"
+  },
+  "peerDependenciesMeta": {
+    "phaser": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0",
+    "eslint": "^9.12.0",
+    "phaser": "3.90.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FluffyBrudy/tilemap-parser"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "bullet",
+  "shape": {
+    "type": "rectangle",
+    "width": 8.0,
+    "height": 4.722222222222225,
+    "offset": [
+      15.916666666666664,
+      0.6666666666666643
+    ]
+  },
+  "properties": {
+    "collision_layer": 4,
+    "collision_mask": 25
+  },
+  "image_path": "../assets/Gothicvania Swamp files/Sprites/Fire/fire/fire2.png"
+}

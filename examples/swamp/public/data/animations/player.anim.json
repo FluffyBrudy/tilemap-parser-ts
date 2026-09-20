@@ -1,0 +1,220 @@
+{
+  "spritesheet_path": "../../assets/Gothicvania Swamp files/Sprites/Player/spritesheet.png",
+  "tile_size": [
+    62,
+    54
+  ],
+  "grid_offset": [
+    0,
+    0
+  ],
+  "animations": {
+    "idle": {
+      "name": "idle",
+      "frames": [
+        {
+          "variant_id": 68,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 69,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 70,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 71,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 72,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 73,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": true,
+      "fps": 60.0
+    },
+    "run": {
+      "name": "run",
+      "frames": [
+        {
+          "variant_id": 102,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 103,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 104,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 105,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 106,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 107,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 108,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 109,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 110,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 111,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 112,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 113,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 114,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 115,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": true,
+      "fps": 60.0
+    },
+    "shoot": {
+      "name": "shoot",
+      "frames": [
+        {
+          "variant_id": 119,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 120,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 121,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": true,
+      "fps": 60.0
+    },
+    "stand": {
+      "name": "stand",
+      "frames": [
+        {
+          "variant_id": 136,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": false,
+      "fps": 60.0
+    },
+    "jump": {
+      "name": "jump",
+      "frames": [
+        {
+          "variant_id": 85,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 86,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": false,
+      "fps": 60.0
+    },
+    "crouch": {
+      "name": "crouch",
+      "frames": [
+        {
+          "variant_id": 0,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 1,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 2,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": false,
+      "fps": 60.0
+    },
+    "crouch_shoot": {
+      "name": "crouch_shoot",
+      "frames": [
+        {
+          "variant_id": 17,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 18,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 19,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": false,
+      "fps": 60.0
+    },
+    "fall": {
+      "name": "fall",
+      "frames": [
+        {
+          "variant_id": 34,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 35,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": true,
+      "fps": 60.0
+    },
+    "hurt": {
+      "name": "hurt",
+      "frames": [
+        {
+          "variant_id": 52,
+          "duration_ms": 100.0
+        },
+        {
+          "variant_id": 51,
+          "duration_ms": 100.0
+        }
+      ],
+      "loop": false,
+      "fps": 60.0
+    }
+  }
+}

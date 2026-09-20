@@ -1,0 +1,17 @@
+{
+  "name": "player",
+  "shape": {
+    "type": "rectangle",
+    "width": 15.392436008796217,
+    "height": 41.96371868724049,
+    "offset": [
+      19.031166806219147,
+      10.012653648833718
+    ]
+  },
+  "properties": {
+    "collision_layer": 2,
+    "collision_mask": 29
+  },
+  "image_path": "../assets/Gothicvania Swamp files/Sprites/Player/spritesheet.png"
+}

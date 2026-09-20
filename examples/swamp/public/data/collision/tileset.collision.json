@@ -1,0 +1,933 @@
+{
+  "tileset_name": "tileset",
+  "tile_size": [
+    16,
+    16
+  ],
+  "tiles": {
+    "23": {
+      "tile_id": 23,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "24": {
+      "tile_id": 24,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "25": {
+      "tile_id": 25,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "26": {
+      "tile_id": 26,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "27": {
+      "tile_id": 27,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "29": {
+      "tile_id": 29,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "30": {
+      "tile_id": 30,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "31": {
+      "tile_id": 31,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "32": {
+      "tile_id": 32,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "33": {
+      "tile_id": 33,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "35": {
+      "tile_id": 35,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "36": {
+      "tile_id": 36,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "37": {
+      "tile_id": 37,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "38": {
+      "tile_id": 38,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "39": {
+      "tile_id": 39,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "41": {
+      "tile_id": 41,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "62": {
+      "tile_id": 62,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              13.5,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              16.0
+            ],
+            [
+              13.5,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "83": {
+      "tile_id": 83,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              13.5,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              16.0
+            ],
+            [
+              13.5,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "44": {
+      "tile_id": 44,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "65": {
+      "tile_id": 65,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "48": {
+      "tile_id": 48,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "69": {
+      "tile_id": 69,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "60": {
+      "tile_id": 60,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "81": {
+      "tile_id": 81,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "56": {
+      "tile_id": 56,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "77": {
+      "tile_id": 77,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "75": {
+      "tile_id": 75,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "54": {
+      "tile_id": 54,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "50": {
+      "tile_id": 50,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "71": {
+      "tile_id": 71,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              0.0,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "21": {
+      "tile_id": 21,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              2.5,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              2.5,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "42": {
+      "tile_id": 42,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              2.5,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              2.5,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    },
+    "63": {
+      "tile_id": 63,
+      "shapes": [
+        {
+          "type": "polygon",
+          "vertices": [
+            [
+              2.5,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              16.0
+            ],
+            [
+              2.5,
+              16.0
+            ]
+          ],
+          "one_way": false
+        }
+      ],
+      "properties": {}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ghost",
+  "shape": {
+    "type": "rectangle",
+    "width": 14.66965811965812,
+    "height": 32.86837606837606,
+    "offset": [
+      8.050854700854702,
+      5.791452991452995
+    ]
+  },
+  "properties": {
+    "collision_layer": 8,
+    "collision_mask": 6
+  },
+  "image_path": "../assets/Gothicvania Swamp files/Sprites/Ghost/Flying/spritesheet.png"
+}
