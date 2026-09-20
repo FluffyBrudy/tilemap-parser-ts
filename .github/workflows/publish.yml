@@ -20,6 +20,10 @@ jobs:
           node-version: 22
           cache: npm
           registry-url: https://registry.npmjs.org
+      # Trusted publishing needs npm >= 11.5.1; the npm bundled with
+      # Node 22 is 10.x, which never attempts the OIDC exchange and
+      # fails the PUT with a misleading E404.
+      - run: npm install -g npm@latest
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
