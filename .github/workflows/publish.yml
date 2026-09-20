@@ -30,4 +30,6 @@ jobs:
       - run: npm run build
       # OIDC trusted publishing — configure the npm trusted publisher for
       # the `tilemap-parser` package first; no NPM_TOKEN needed.
-      - run: npm publish --provenance --access public
+      # Stage-only publisher: submit with `npm stage publish`, then a
+      # maintainer approves the staged version (with 2FA) on npmjs.com.
+      - run: npm stage publish
