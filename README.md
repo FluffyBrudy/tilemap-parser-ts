@@ -4,10 +4,12 @@ TypeScript port of the `tilemap-parser` core, targeted at the web via
 [Phaser](https://phaser.io/). Engine-agnostic parsing + runtime under
 `tilemap-parser/core`, thin Phaser bindings under `tilemap-parser/phaser`.
 
-> Fresh derivation from the unreleased `tilemap-parser` 6.0.0 line — not a
-> port of legacy releases. Most of the Python API is mirrored where it makes
-> sense on web/Phaser; engine-specific parts (pygame rendering) are replaced
+> Fresh derivation from the  `tilemap-parser` 6.0.0 line.
+> Most of the Python API is mirrored where it makes sense on web/Phaser
+> engine-specific parts are replaced
 > by Phaser helpers.
+
+ref: (https://github.com/FluffyBrudy/tilemap-parser)[https://github.com/FluffyBrudy/tilemap-parser]
 
 ## Install
 
